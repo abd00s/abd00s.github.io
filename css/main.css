@@ -253,7 +253,7 @@ textarea {
 }
 	.reveal-modal img {
 		display: block;
-		width: 70%;
+		/*width: 70%;*/
 		height: auto;
 		background-color: #e2e2e2;
 		border-radius: 4px;
