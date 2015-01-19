@@ -399,7 +399,7 @@
 
 				<img src="img/twitter-bird.png" alt="" class="pulse">
 
-				<div id="tweets"></div>
+				<div id="tweets" class="panel"></div>
 				<script>
 					window.onload = function(){
 						twitterFetcher.fetch(
@@ -412,7 +412,7 @@
 							d,								// Format tweet date
 							true,							// Show retweets or not.
 							d,								// function to call when data is ready.
-							true							// Show links for reply, retweet, favourite.
+							false							// Show links for reply, retweet, favourite.
 						);
 						var d = function(){return null};	// nothing function
 					}		
